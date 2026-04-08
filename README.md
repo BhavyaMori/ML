@@ -1,27 +1,85 @@
-Crop Yield Prediction ML Project
-This project predicts crop yield using Machine Learning.
+🌾 Crop Yield Prediction System (ML Project)
+📌 Overview
 
-Project Description
-This is a Machine Learning project where we predict crop yield using input features like:
+This project is a Machine Learning-based Crop Yield Prediction System that predicts crop yield based on environmental and agricultural factors like temperature, fertilizer usage, and soil nutrients (N, P, K).
 
-Temperature
-Fertilizer
-Nitrogen (N)
-Phosphorus (P)
-Potassium (K)
-The model is trained using Random Forest and deployed using Streamlit.
+The system helps farmers and researchers make data-driven decisions to improve crop production.
 
-Technologies Used
+🎯 Objectives
+Predict crop yield accurately using ML models
+Analyze important factors affecting yield
+Compare different ML models
+Provide a user-friendly interface for predictions
+
+🛠️ Technologies Used
+
+🔹 Machine Learning
 Python
 Pandas
 NumPy
 Scikit-learn
+XGBoost
+
+🔹 Visualization
+
+Matplotlib
+Plotly
+
+🔹 Frontend
+
 Streamlit
-Joblib
-How to Run This Project
-Install requirements: pip install -r requirements.txt
 
-Run Streamlit app: streamlit run app.py
 
-Author
-Mahi Nai BSc IT | Data Analytics & Machine Learning
+📊 Dataset
+The dataset includes:
+
+Temperature 🌡️
+Fertilizer 🌱
+Nitrogen (N)
+Phosphorus (P)
+Potassium (K)
+Crop Yield
+
+⚙️ Project Workflow
+Data Collection
+Data Cleaning & Preprocessing
+EDA
+Model Training (Random Forest, XGBoost)
+Evaluation (MAE, RMSE, R²)
+Prediction
+
+🤖 Models Used
+🌲 Random Forest
+Handles complex data
+Reduces overfitting
+⚡ XGBoost
+High accuracy
+Powerful boosting algorithm
+
+📈 Results
+Random Forest → Stable performance
+XGBoost → Better accuracy in some cases
+
+💻 Features
+Real-time prediction
+Graphs & visualizations
+Model comparison
+Simple UI
+
+▶️ How to Run
+Clone repo
+
+git clone https://github.com/your-username/your-repo-name.git
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run app
+
+streamlit run app.py
+
+Developed as part of academic project.
+
+📬 Contact
+Feel free to reach out!
