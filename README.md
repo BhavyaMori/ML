@@ -67,10 +67,6 @@ Model comparison
 Simple UI
 
 ▶️ How to Run
-Clone repo
-
-git clone https://github.com/your-username/your-repo-name.git
-
 Install dependencies
 
 pip install -r requirements.txt
